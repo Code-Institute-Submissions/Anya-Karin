@@ -1,0 +1,56 @@
+body {
+    
+}
+
+header {
+    margin: 0;
+    
+}
+
+.logo {
+    background-color: #4b494a;
+}
+
+.logo h1 {
+    font-family: 'Cinzel', sans-serif;
+    color: #a09a9a;
+
+}
+
+/*---------------------------------colours */
+
+.ui-menu-color-home {
+    background-color: #3b2e3b;
+}
+
+.ui-menu-color-music {
+    background-color: #382638;
+}
+
+.ui-menu-color-aboutme {
+    background-color: #522952;
+}
+
+.ui-menu-color-contact {
+    background-color: #6b3b6b;
+}
+
+/*.wrapper {
+    height: 600px;
+    width: 400px;
+}*/
+
+.home.inner {
+        background-image: url(assets/images/red-dress-woods.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* width of the image is smaller than
+        the width of the container. That is why we see
+        the gap filled with the background-color
+        of the container */
+        width: 200px;
+        height: 100px;
+
+        /* background-color of the container */
+        background-color: #e84610;
+}

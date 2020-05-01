@@ -16,7 +16,7 @@
     <title>Anya Karin</title>
   </head>
 
-  <body id="body-homepage">
+  <body id="body-contactpage">
     <nav class="navbar navbar-dark bg-dark navbar-expand-md" id="navbar">
       <a href="index.html" class="navbar-brand ml-2" id="logo">Anya Karin</a>
       <button
@@ -33,7 +33,7 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto" id="navbar-nav">
-          <li class="active navbar-item mr-2">
+          <li class="navbar-item mr-2">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="navbar-item mr-2">
@@ -42,30 +42,52 @@
           <li class="navbar-item mr-2">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="navbar-item mr-2">
+          <li class="active navbar-item mr-2">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-    <main>
-      <div class="container callout-container">
-        <div class="row">
-          <div class="col-6 song-title-inner ml-auto mr-2">
-            <h3 id="song-title-homepage">Sold By The War</h3>
-          </div>
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h4 class="text-center">
+            Would you like me to perform at your event?
+          </h4>
+          <h5 class="text-center">Get in contact</h5>
         </div>
-        <div class="row">
-          <div class="col-6 listen-buton-inner ml-auto mr-3">
-            <button type="button" class="btn btn-dark listen-button-homepage">
-              <a
-                href="https://distrokid.com/hyperfollow/anyakarin/sold-by-the-war"
-                target="_blank"
-              >
-                Listen
-              </a>
-            </button>
-          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6 center-form">
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              id="fullname"
+              class="form-control mb-2"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              name="emailaddress"
+              id="emailaddress"
+              class="form-control mb-2"
+              placeholder="Email address"
+              required />
+            <textarea
+              name="contactdescription"
+              id="contactdescription"
+              rows="10"
+              placeholder="Event description"
+              required
+            ></textarea>
+            <div class="row justify-content-center">
+              <div class="col">
+                <button type="submit" btn btn-secondary>Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </main>

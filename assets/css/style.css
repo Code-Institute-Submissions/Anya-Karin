@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel:300,400,500,700|Open+Sans:400,500,700&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+:root {
+  --color-1: rgb(201, 144, 161);
+  --color-2: rgb(242, 242, 242);
+  --color-3: rgb(0, 0, 0);
+  --color-4: rgba(32, 32, 32, 0.8);
+  --color-5: rgb(0, 0, 0, 0.5);
+  --color-6: rgb(36, 36, 36);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--color-2);
+}
+
+/*---Navigation ---------------------*/
+
+#navbar {
+  background-color: var(--color-5) !important;
+}
+
+#logo {
+  font-family: "Cinzel", sans-serif;
+  color: var(--color-1);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-nav {
+}
+
+.navbar-item {
+  letter-spacing: 0.1rem;
+}
+
+#logo:hover {
+  color: var(--color-2);
+}
+
+#navbar-nav a:hover {
+  color: var(--color-1);
+}
+
+/*---Footer ---------------------*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: var(--color-3);
+}
+
+footer .list-inline-item a {
+  color: var(--color-1);
+}
+
+footer .list-inline-item a:hover {
+  color: var(--color-2);
+}
+
+/*---Home page ------------------*/
+
+#body-homepage {
+  height: 100vh;
+
+  background: url("../images/Anya-original2-resized.jpg") no-repeat top center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.callout-container {
+  margin-top: 10%;
+  margin-right: 0;
+}
+
+#song-title-homepage {
+  font-family: cinzel, sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.listen-button-homepage {
+  border-radius: 0;
+  color: var(--color-6);
+  background-color: var(--color-1);
+  border-bottom-color: var(--color-1);
+  border-top-color: var(--color-1);
+  border-right-color: var(--color-1);
+  border-left-color: var(--color-1);
+  padding: 0.6rem 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  margin-left: auto;
+}
+
+.listen-button-homepage a {
+  color: var(--color-6);
+}
+
+.listen-button-homepage,
+.listen-button-homepage a:hover {
+  color: var(--color-1);
+  border-bottom-color: var(--color-1);
+  border-top-color: var(--color-1);
+  border-right-color: var(--color-1);
+  border-left-color: var(--color-1);
+  text-decoration: none;
+}
+
+/*---Music page ------------------*/
+
+#body-musicpage {
+  height: 100vh;
+  background-color: var(--color-3);
+}
+
+.resp-row {
+  position:"";
+  margin-bottom: 12rem;
+}
+
+.embed-responsive {
+  margin-bottom: 1.6rem;
+
+}
+
+.embed-responsive-item {
+  margin-bottom: 25px;
+}
+
+.song-little-col {
+    text-align: center;
+}
+
+.song-little-col h4 {
+    text-transform: uppercase;
+    font-family: Cinzel, sans-serif;
+    font-weight: 300;
+}
+
+.song-little-col h4 span em {
+    font-size: 50%;
+    color: var(--color-1);
+
+}
+
+.listen-button-musicpage {
+  border-radius: 0;
+  color: var(--color-6);
+  background-color: var(--color-1);
+  border-bottom-color: var(--color-1);
+  border-top-color: var(--color-1);
+  border-right-color: var(--color-1);
+  border-left-color: var(--color-1);
+  padding: 0.6rem 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+   font-weight: 700;
+}
+
+.listen-button-musicpage a {
+  color: var(--color-2);
+}
+
+.listen-button-musicpage,
+.listen-button-musicpage a:hover {
+  color: var(--color-1);
+  border-bottom-color: var(--color-1);
+  border-top-color: var(--color-1);
+  border-right-color: var(--color-1);
+  border-left-color: var(--color-1);
+  text-decoration: none;
+}
+
+/*---About page ------------------*/
+
+#body-aboutpage {
+  height: 100vh;
+
+  background: url("../images/Anya-original1-bw-3.jpg") no-repeat top center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#card-aboutpage {
+    width: 18rem;
+    height: 100%;
+    color: var(--color-2);
+    background-color: var(--color-4); 
+}
+
+.card-text {
+    font-size: 14px;
+    word-spacing: .2rem;
+}
+
+/*---Contact page ------------------*/
+
+#body-contactpage {
+  height: 100vh;
+  background-color: var(--color-3);
+}
+
+textarea #contactdescription {
+    width: 100%;
+}

@@ -11,7 +11,7 @@
   --color-2: rgb(242, 242, 242);
   --color-3: rgb(0, 0, 0);
   --color-4: rgba(32, 32, 32, 0.8);
-  --color-5: rgb(0, 0, 0, 0.5);
+  --color-5: rgb(0, 0, 0, 0.3);
   --color-6: rgb(36, 36, 36);
 }
 
@@ -71,65 +71,34 @@ footer .list-inline-item a:hover {
 /*---Home page ------------------*/
 
 #body-homepage {
-  height: 100vh;
-
-  background: url("../images/Anya-original2-resized.jpg") no-repeat top center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-color: var(--color-6);
 }
 
-.callout-container {
-  margin-top: 10%;
-  margin-right: 0;
+.carousel-caption h3 a {
+  color:var(--color-2);
 }
 
-#song-title-homepage {
-  font-family: cinzel, sans-serif;
-  margin-bottom: 0.8rem;
-}
-
-.listen-button-homepage {
-  border-radius: 0;
-  color: var(--color-6);
-  background-color: var(--color-1);
-  border-bottom-color: var(--color-1);
-  border-top-color: var(--color-1);
-  border-right-color: var(--color-1);
-  border-left-color: var(--color-1);
-  padding: 0.6rem 1.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 1.2rem;
-  margin-left: auto;
-}
-
-.listen-button-homepage a {
-  color: var(--color-6);
-}
-
-.listen-button-homepage,
-.listen-button-homepage a:hover {
+.carousel-caption h3 a:hover {
   color: var(--color-1);
-  border-bottom-color: var(--color-1);
-  border-top-color: var(--color-1);
-  border-right-color: var(--color-1);
-  border-left-color: var(--color-1);
   text-decoration: none;
+}
+
+hr {
+    color: var(--color-2);
+    width: 100%;
+
 }
 
 /*---Music page ------------------*/
 
 #body-musicpage {
   height: 100vh;
-  background-color: var(--color-3);
+  background-color: var(--color-6);
 }
 
 .resp-row {
   position:"";
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 }
 
 .embed-responsive {
@@ -138,7 +107,14 @@ footer .list-inline-item a:hover {
 }
 
 .embed-responsive-item {
-  margin-bottom: 25px;
+
+   position: absolute;
+    border-style: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
 }
 
 .song-little-col {
@@ -159,12 +135,12 @@ footer .list-inline-item a:hover {
 
 .listen-button-musicpage {
   border-radius: 0;
-  color: var(--color-6);
-  background-color: var(--color-1);
-  border-bottom-color: var(--color-1);
-  border-top-color: var(--color-1);
-  border-right-color: var(--color-1);
-  border-left-color: var(--color-1);
+  color: var(--color-2);
+  background-color: var(--color-5);
+  border-bottom-color: var(--color-2);
+  border-top-color: var(--color-2);
+  border-right-color: var(--color-2);
+  border-left-color: var(--color-2);
   padding: 0.6rem 1.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -178,7 +154,8 @@ footer .list-inline-item a:hover {
 
 .listen-button-musicpage,
 .listen-button-musicpage a:hover {
-  color: var(--color-1);
+  color: var(--color-5);
+  background-color: var(--color-1);
   border-bottom-color: var(--color-1);
   border-top-color: var(--color-1);
   border-right-color: var(--color-1);
@@ -220,4 +197,17 @@ footer .list-inline-item a:hover {
 
 textarea #contactdescription {
     width: 100%;
+}
+
+/*---Media Queries------------------*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
 }

@@ -60,7 +60,8 @@ footer {
   width: 100%;
   text-align: center;
   background: var(--color-3);
-}
+  min-height: 100px;
+  }
 
 footer .list-inline-item a {
   color: var(--color-1);
@@ -105,7 +106,7 @@ footer .list-inline-item a:hover {
 
 .album-container {
   
-  background-image: url("/assets/images/Owner-cover-3.jpg");
+  background-image: url("assets/images/Owner-cover-3.jpg");
   background-position: right bottom, left top;
   background-repeat: repeat-x;
 }
@@ -227,7 +228,7 @@ footer .list-inline-item a:hover {
 #body-aboutpage {
   height: 100vh;
 
-  background: url("../images/Anya-original1-bw-3.jpg") no-repeat top center
+  background: url("assets/images/about-bg.jpg") no-repeat top center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

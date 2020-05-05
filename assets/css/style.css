@@ -30,7 +30,7 @@ body {
 #logo {
   font-family: "Cinzel", sans-serif;
   color: var(--color-1);
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
@@ -40,6 +40,7 @@ body {
 
 .navbar-item {
   letter-spacing: 0.1rem;
+  font-size: .8rem;
 }
 
 #logo:hover {
@@ -53,7 +54,7 @@ body {
 /*---Footer ---------------------*/
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -68,6 +69,8 @@ footer .list-inline-item a {
 footer .list-inline-item a:hover {
   color: var(--color-2);
 }
+
+
 
 /*---Home page ------------------*/
 
@@ -84,6 +87,15 @@ footer .list-inline-item a:hover {
   text-decoration: none;
 }
 
+.review-container h1 a {
+    color: var(--color-6);
+}
+
+.review-container h1 a:hover {
+    color: var(--color-1);
+    text-decoration: none;
+}
+
 /*---Music page ------------------*/
 
 #body-musicpage {
@@ -91,7 +103,7 @@ footer .list-inline-item a:hover {
 }
 
 
-.image-album-container {
+.album-container {
   
   background-image: url("/assets/images/Owner-cover-3.jpg");
   background-position: right bottom, left top;
@@ -121,8 +133,11 @@ footer .list-inline-item a:hover {
   text-decoration: none;
 }
 
+.song-text {
+    padding-bottom: .6rem;
+}
+
 .row .song-list {
-    margin-bottom: 1rem;
     border-bottom-color:var(--color-6);
     border-width: .4rem;
 }
@@ -239,19 +254,35 @@ footer .list-inline-item a:hover {
   background-color: var(--color-3);
 }
 
-textarea #contactdescription {
-    width: 100%;
+.hire-me-text h4, 
+.hire-me-text h5 {
+    color: var(--color-2);
+    margin-bottom: 1rem;
 }
+
 
 /*---Media Queries------------------*/
-@media (max-width: 992px) {
 
-}
-
-@media (max-width: 768px) {
-    
+    /*--template found on bootstrp documentation
+     and costumised unit--*/
+html {
+  font-size: 1rem;
 }
 
 @media (max-width: 576px) {
-    
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 1.2rem;
+  }
 }

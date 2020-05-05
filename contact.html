@@ -17,9 +17,12 @@
   </head>
 
   <body id="body-contactpage">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md" id="navbar">
-      <a href="index.html" class="navbar-brand ml-2" id="logo">Anya Karin</a>
-      <button
+    	<!--NAVBAR AND LOGO-->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md" id="navbar">
+
+		<!--LOGO-->
+		<a href="index.html" class="navbar-brand ml-2" id="logo">Anya Karin</a>
+		<button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -31,122 +34,151 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto" id="navbar-nav">
-          <li class="navbar-item mr-2">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="navbar-item mr-2">
-            <a class="nav-link" href="music.html">Music</a>
-          </li>
-          <li class="navbar-item mr-2">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="active navbar-item mr-2">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <main class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col">
-          <h4 class="text-center">
-            Would you like me to perform at your event?
-          </h4>
-          <h5 class="text-center">Get in contact</h5>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-6 center-form">
-          <form class="contact-form">
-            <input
-              type="text"
-              name="name"
-              id="fullname"
-              class="form-control mb-2"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="emailaddress"
-              id="emailaddress"
-              class="form-control mb-2"
-              placeholder="Email address"
-              required />
-            <textarea
-              name="contactdescription"
-              id="contactdescription"
-              rows="10"
-              placeholder="Event description"
-              required
-            ></textarea>
+		<!--NAVBAR LINKS-->
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav ml-auto" id="navbar-nav">
+				<li class="navbar-item mr-2">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="navbar-item mr-2">
+					<a class="nav-link" href="music.html">Music</a>
+				</li>
+				<li class="navbar-item mr-2">
+					<a class="nav-link" href="video.html">Video</a>
+				</li>
+				<li class="navbar-item mr-2">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="active navbar-item mr-2">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+    <main class="contact-main">
+
+        <!--CONTACT FORM AREA-->
+        <div class="container contact-container">
+            
+            <!--CALLOUT TEXT-->
             <div class="row justify-content-center">
-              <div class="col">
-                <button type="submit" btn btn-secondary>Submit</button>
-              </div>
+                <div class="col hire-me-text">
+                <h4 class="text-center">
+                    Hire me for your event!
+                </h4>
+                <h5 class="text-center">Get in contact</h5>
+                </div>
             </div>
-          </form>
+
+            <!--CONTACT FORM-->
+            <form class="contact-form">
+            
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-8">
+                        <input
+                        type="text"
+                        name="name"
+                        id="fullname"
+                        class="form-control mb-2"
+                        placeholder="Name"
+                        required
+                        />
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-8">
+                        <input
+                        type="email"
+                        name="emailaddress"
+                        id="emailaddress"
+                        class="form-control mb-2"
+                        placeholder="Email address"
+                        required />
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-8">
+                        <textarea
+                        name="contactdescription"
+                        id="contactdescription"
+                        rows="10"
+                        placeholder="Event description"
+                        class="form-control mb-2 md-textarea"
+                        required
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-2 mb-5 col-md-8">
+                        <button type="submit" value="Submit" class="btn btn-light">Submit</button>
+                    </div>
+                </div>
+            
+            </form>
         </div>
-      </div>
+ 
     </main>
-    <footer>
-      <div class="row">
-        <div class="col mt-3 social-links-outer">
-          <ul class="list-inline social-links-inner">
-            <li class="list-inline-item mr-3">
-              <a target="_blank" href="https://www.facebook.com/AnyaKarinSoul/">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a
-                target="_blank"
-                href="https://twitter.com/karin_anya?lang=en-gb"
-              >
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a
-                target="_blank"
-                href="https://music.apple.com/us/artist/anya-karin/1460314571"
-              >
-                <i class="fa fa-apple" aria-hidden="true"></i>
-                <span class="sr-only">Apple Music</span>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a
-                target="_blank"
-                href="https://open.spotify.com/artist/4Nm12pXLo6uSawdmqpCSBg"
-              >
-                <i class="fa fa-spotify" aria-hidden="true"></i>
-                <span class="sr-only">Spotify</span>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a
-                target="_blank"
-                href="https://www.instagram.com/anyakarinsinger/"
-              >
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a
-                target="_blank"
-                href="https://www.youtube.com/channel/UCAxhU_069V-dojUvlqVV8ew"
-              >
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">YouTube</span>
-              </a>
-            </li>
-          </ul>
+
+    <!--FOOTER-->
+    <footer style="position: fixed;"><!--set to a fixed position to keep footer at the bottom of the page-->
+      <div class="container">
+        <div class="row ">
+            <div class="col mt-3 social-links-outer">
+                <ul class="list-inline social-links-inner">
+                    <li class="list-inline-item mr-3">
+                    <a target="_blank" href="https://www.facebook.com/AnyaKarinSoul/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                    <a
+                        target="_blank"
+                        href="https://twitter.com/karin_anya?lang=en-gb"
+                    >
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                    <a
+                        target="_blank"
+                        href="https://music.apple.com/us/artist/anya-karin/1460314571"
+                    >
+                        <i class="fa fa-apple" aria-hidden="true"></i>
+                        <span class="sr-only">Apple Music</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                    <a
+                        target="_blank"
+                        href="https://open.spotify.com/artist/4Nm12pXLo6uSawdmqpCSBg"
+                    >
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <span class="sr-only">Spotify</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                    <a
+                        target="_blank"
+                        href="https://www.instagram.com/anyakarinsinger/"
+                    >
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/channel/UCAxhU_069V-dojUvlqVV8ew"
+                    >
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                    </li>
+                </ul> 
+            </div>
         </div>
       </div>
     </footer>

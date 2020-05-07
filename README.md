@@ -1,6 +1,6 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-<h1>Anya Karin singer song writer</h1>
+#H1 Anya Karin singer song writer
 
 <p>This project aims to promote the identity and work of Anya Karin as a singer and song writer. The current music market understands that to achieve popularity, the songs should reach the consumer repeatedly in order to create familiarity as Duhigg explains in "The Power of Habit". At this moment in time, radio is losing its place as top gatekeeper of what songs reach the mass audience, giving way to platforms such as spotify and apple play.</p>
 <p>As the trends favour the streaming market that had a rise from 76.8 million users in 2015 to 278 million users in 2019. Therefore, an online presence is vital in order to reach listeners. A website that contains enough information to convey the artist's identity and work would become the home of the digital image and the link to different social and streaming platforms used by the artist.</p>

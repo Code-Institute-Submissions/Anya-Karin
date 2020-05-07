@@ -97,6 +97,34 @@ footer .list-inline-item a:hover {
     text-decoration: none;
 }
 
+/*---About page ------------------*/
+
+#body-aboutpage {
+  height: 100vh;
+
+
+    
+  background: url("../images/about-bg.jpg") no-repeat top center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} /*code obtained from https://css-tricks.com/perfect-full-page-background-image/*/
+
+#card-aboutpage {
+    width: 18rem;
+    height: 100%;
+    color: var(--color-2);
+    background-color: var(--color-4); 
+}
+
+.card-text {
+    font-size: 14px;
+    word-spacing: .2rem;
+}
+
+
 /*---Music page ------------------*/
 
 #body-musicpage {
@@ -223,36 +251,12 @@ footer .list-inline-item a:hover {
   text-decoration: none;
 }
 
-/*---About page ------------------*/
-
-#body-aboutpage {
-  height: 100vh;
-
-  background: url("assets/images/about-bg.jpg") no-repeat top center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#card-aboutpage {
-    width: 18rem;
-    height: 100%;
-    color: var(--color-2);
-    background-color: var(--color-4); 
-}
-
-.card-text {
-    font-size: 14px;
-    word-spacing: .2rem;
-}
 
 /*---Contact page ------------------*/
 
 #body-contactpage {
   height: 100vh;
-  background-color: var(--color-3);
+  background-color: var(--color-6);
 }
 
 .hire-me-text h4, 

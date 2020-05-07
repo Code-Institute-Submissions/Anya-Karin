@@ -134,7 +134,7 @@ footer .list-inline-item a:hover {
 
 .album-container {
   
-  background-image: url("assets/images/Owner-cover-3.jpg");
+  background-image: url("../images/Owner-cover-3.jpg");
   background-position: right bottom, left top;
   background-repeat: repeat-x;
 }

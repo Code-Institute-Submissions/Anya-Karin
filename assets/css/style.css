@@ -265,7 +265,7 @@ footer .list-inline-item a:hover {
 /*---Media Queries------------------*/
 
     /*--template found on bootstrp documentation
-     and costumised unit--*/
+     and costumised values--*/
 html {
   font-size: 1rem;
 }
@@ -279,6 +279,10 @@ html {
 @media (max-width:768px) {
   html {
     font-size: 1rem;
+  }
+    /* For mobile phones: template found on https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+  #body-musicpage[class*="col-"] {
+    width: 100%;
   }
 }
 

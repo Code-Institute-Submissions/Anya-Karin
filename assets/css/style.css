@@ -6,14 +6,17 @@
   margin: 0;
 }
 
-:root {
+
+:root { 
   --color-1: rgb(223, 111, 111);
   --color-2: rgb(226, 226, 226);
   --color-3: rgb(5, 5, 5);
   --color-4: rgba(32, 32, 32, 0.8);
   --color-5: rgb(0, 0, 0, 0.5);
   --color-6: rgb(36, 36, 36);
-}
+}   /*--VARIABLES -I found the need to use variables as I was experimenting with 
+    different tones of grey and pink - learnt with Kevin Powel's youtube video 
+    "CSS Variables - An introduction to CSS custom properties" https://www.youtube.com/watch?v=PHO6TBq_auI"--*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -40,7 +43,7 @@ body {
 
 .navbar-item {
   letter-spacing: 0.1rem;
-  font-size: .8rem;
+  
 }
 
 #logo:hover {
@@ -81,7 +84,6 @@ footer .list-inline-item a:hover {
 
 .carousel-caption h3 a {
   color:var(--color-2);
-  font-size: 1.2rem;
 }
 
 .carousel-caption h3 a:hover {
@@ -99,7 +101,7 @@ footer .list-inline-item a:hover {
 }
 
 .carousel-item img {
-    
+    max-height: 500px;
 }
 
 /*---About page ------------------*/
@@ -275,28 +277,41 @@ footer .list-inline-item a:hover {
 
     /*--template found on bootstrp documentation
      and costumised values--*/
-html {
-  font-size: 1rem;
-}
+
 
 @media (max-width: 576px) {
-  html {
-    font-size: 0.8rem;
+  #logo {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  html {
-    font-size: 1rem;
+  #logo {
+    font-size: 1.8rem;
   }
-    /* For mobile phones: template found on https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+
+     /* For mobile phones: template found on https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
   #body-musicpage[class*="col-"] {
     width: 100%;
   }
 }
 
 @media (max-width: 992px) {
-  html {
-    font-size: 1.2rem;
+  #logo {
+    font-size: 2rem;
+  }
+
+  .navbar-item {
+  font-size: 1rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  #logo {
+    font-size: 2.2rem;
+  }
+
+  .navbar-item {
+  font-size: 1.2rem;
   }
 }

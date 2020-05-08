@@ -81,6 +81,7 @@ footer .list-inline-item a:hover {
 
 .carousel-caption h3 a {
   color:var(--color-2);
+  font-size: 1.2rem;
 }
 
 .carousel-caption h3 a:hover {
@@ -95,6 +96,10 @@ footer .list-inline-item a:hover {
 .review-container h1 a:hover {
     color: var(--color-1);
     text-decoration: none;
+}
+
+.carousel-item img {
+    
 }
 
 /*---About page ------------------*/

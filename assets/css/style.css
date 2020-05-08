@@ -34,7 +34,6 @@ body {
 #logo {
   font-family: "Cinzel", sans-serif;
   color: var(--color-1);
-  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
@@ -69,6 +68,7 @@ footer {
 
 footer .list-inline-item a {
   color: var(--color-1);
+  font-size: 1rem;
 }
 
 footer .list-inline-item a:hover {
@@ -84,15 +84,19 @@ footer .list-inline-item a:hover {
     height: 100vh;
 }
 
-.carousel-caption h3 a {
-  color:var(--color-2);
+.carousel-caption h3 a{
+    color: var(--color-2);
+    font-size: 1rem;
 }
-
 .carousel-caption h3 a:hover {
   color: var(--color-1);
   text-decoration: none;
 }
 
+.clock-icon i {
+    color: var(--color-1);
+    font-size: 1rem;
+}
 .review-container h1 a {
     color: var(--color-6);
 }
@@ -304,35 +308,53 @@ footer .list-inline-item a:hover {
   #logo {
     font-size: 1.2rem;
   }
+  
+  .news-content h2
+  footer .list-inline-item a {
+  font-size: 1rem;
+  }
 }
+
 
 @media (max-width:768px) {
   #logo {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
      /* For mobile phones: template found on https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
   #body-musicpage[class*="col-"] {
     width: 100%;
   }
+
+  footer .list-inline-item a {
+     font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 992px) {
   #logo {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .navbar-item {
   font-size: 1rem;
   }
+
+  footer .list-inline-item a {
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 992px) {
   #logo {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .navbar-item {
   font-size: 1.2rem;
+  }
+
+  footer .list-inline-item a {
+  size: 1.8rem;
   }
 }

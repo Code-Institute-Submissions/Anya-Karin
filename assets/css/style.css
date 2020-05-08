@@ -57,7 +57,7 @@ body {
 /*---Footer ---------------------*/
 
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -80,6 +80,7 @@ footer .list-inline-item a:hover {
 
 #body-homepage {
     background-color: var(--color-6);
+    height: 100vh;
 }
 
 .carousel-caption h3 a {
@@ -103,6 +104,20 @@ footer .list-inline-item a:hover {
 .carousel-item img {
     max-height: 500px;
 }
+
+#news {
+  background-color: var(--color-6);
+  color: var(--color-2);
+}
+
+#logo-2 {
+  font-family: "Cinzel", sans-serif;
+  color: var(--color-2);
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
 
 /*---About page ------------------*/
 
@@ -130,6 +145,7 @@ footer .list-inline-item a:hover {
     font-size: 14px;
     word-spacing: .2rem;
 }
+
 
 
 /*---Music page ------------------*/
@@ -306,9 +322,9 @@ footer .list-inline-item a:hover {
   }
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 992px) {
   #logo {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
 
   .navbar-item {

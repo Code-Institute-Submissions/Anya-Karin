@@ -38,9 +38,6 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.navbar-nav {
-}
-
 .navbar-item {
   letter-spacing: 0.1rem;
   
@@ -97,6 +94,8 @@ footer .list-inline-item a:hover {
     color: var(--color-1);
     font-size: 1rem;
 }
+
+   
 .review-container h1 a {
     color: var(--color-6);
 }
@@ -110,9 +109,9 @@ footer .list-inline-item a:hover {
     max-height: 500px;
 }
 
-#news {
-  background-color: var(--color-2);
-  color: var(--color-6);
+.news-content {
+  background-color: var(--color-6);
+  color: var(--color-2);
 }
 
 #logo-2 {
@@ -123,8 +122,14 @@ footer .list-inline-item a:hover {
   letter-spacing: 0.1rem;
 }
 
-#quotes-jumbotron {
-    background-color: var(--color-6);
+.quotes-section {
+    background-color: var(--color-2);
+}
+
+.quote-item,
+.quote-description,
+.quote-description p a {
+    color: var(--color-6);
 }
 
 

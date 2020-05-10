@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 	<script src="https://kit.fontawesome.com/2ba69951ac.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" />
-	
-    <title>Anya Karin</title>
+
+	<title>Anya Karin</title>
 </head>
 
 <body id="body-musicpage">
@@ -60,64 +60,417 @@
 		<!--MUSIC LIST-->
 		<div class="container-fluid album-container">
 
-			<!--ALBUM COVER AND buy and stream icons-->
-			<div class="row Owner-row">
+			<!--ALBUM OWNER COVER + BUY AND PLAY ICONS-->
+			<div id="owner-row" class="row">
 
-				<div class="col-12 col-md-6 align-self-center mx-auto cover-image">
-					<img src="assets/images/19.owner-cover-400x400.jpg" alt="Owner Cover">
+				<!--COVER IMAGE-->
+				<div class="col-12 col-md-6 mx-auto text-center my-3">
+					<img class="cover-image" src="assets/images/19.owner-cover-400x400.jpg" alt="Owner Cover">
                 </div>
 
-					<div class="col-12 col-md-6 align-self-center album-button-outer">
-						<div class="row">
-							<div class="col-12 col-md-6 text-center">
-								<h3 class="text-uppercase text-center mb-2">Album Owner</h3>
-							</div>
-							<div class="col-12 col-md-6 align-items-center text-center">
-								<ul class="list-inline social-links-inner">
-									<li class="list-inline-item mr-3">
-										<a target="_blank" href="#">
-											<i class="far fa-play-circle" aria-hidden="true"></i>
-											<span class="sr-only">play</span>
-										</a>
-									</li>
-									<li class="list-inline-item mr-3">
-										<a target="_blank" href="#">
-											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-											<span class="sr-only">Twitter</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid my-3 songs-list-container">
-				<div class="row justify-content-md-center justify-content-xl-between song-list">
-					<div class="col-12 col-md-3 song-text">1. Owner</div>
-					<div class="col-12 col-md-3">
-						<a class="song-links"
-							href="https://play.google.com/music/preview/Bpvf3ddtdsr5tzv3iexdbxumvhq?play=1">Buy</a>
-					</div>
-				</div>
-				<div class="row content-md-center justify-content-md-between song-list">
-					<div class="col-12 col-md-3 song-text">2. I Put in My Red Dress</div>
-					<a class="col-12 col-md-2 song-links"
-						href="https://play.google.com/music/preview/Bpvf3ddtdsr5tzv3iexdbxumvhq?play=1">Buy</a>
-				</div>
-				<div class="row content-sm-center justify-content-md-between song-list">
-					<div class="col-12 col-md-3 song-text">3. You Don't Know Me</div>
-					<a class="col-12 col-md-2 song-links"
-						href="https://play.google.com/music/preview/Bpvf3ddtdsr5tzv3iexdbxumvhq?play=1">Buy</a>
-				</div>
-				<div class="row content-sm-center justify-content-md-between song-list">
-					<div class="col-12 col-md-3 song-text">4. Renascer</div>
-					<a class="col-12 col-md-2 song-links"
-						href="https://play.google.com/music/preview/Bpvf3ddtdsr5tzv3iexdbxumvhq?play=1">Buy</a>
-				</div>
-			</div>
-			<div class="container-fluid my-3 singles-list-container">
-			</div>
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Owner</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                            to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item buy-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--WAKE UP GIRL COVER + BUY AND PLAY ICONS-->
+            <div class="row wake-up-girl-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/1.wake-up-girl-400X400.jpg" alt="Wake up girl">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Wake up girl</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SOLD BY THE WAR COVER + BUY AND PLAY ICONS-->
+            <div class="row sold-by-the-war-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/2.sold-by-the-war-400X400.jpg" alt="Sold by the war">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Sold by the war</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SING WITH ME COVER + BUY AND PLAY ICONS-->
+            <div class="row sing-with-me-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/3.sing-with-me-400X400.jpg" alt="Sing with me">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Sing with me</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--ADDICTED COVER + BUY AND PLAY ICONS-->
+            <div class="row addicted-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/4.addicted-400x400.jpg" alt="Addicted">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Addicted</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--CAN YOU BELIEVE COVER + BUY AND PLAY ICONS-->
+            <div class="row can-you-believe-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/5.can-you-believe-400x400.jpg" alt="Can you believe">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Sold by the war</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--CHRISTMAS NIGHT COVER + BUY AND PLAY ICONS-->
+            <div class="row christmas-night-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/6.christmas-night-400x400.jpg" alt="Christmas night">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Christmas night</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--DEIXEI-ME PERDER COVER + BUY AND PLAY ICONS-->
+            <div class="row deixei-me-perder-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/7.deixei-me-perder-400x400.jpg" alt="Deixei-me perder">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">Deixei-me perder</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--I'M A BAD GIRL COVER + BUY AND PLAY ICONS-->
+            <div class="row im-a-bad-girl-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/8.im-a-bad-girl-400x400.jpg" alt="I'm a bad girl">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">I'm a bad girl</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--I'M NOT COMING BACK HOME COVER + BUY AND PLAY ICONS-->
+            <div class="row im-not-coming-back-home-row">
+
+                <!--COVER IMAGE-->
+                <div class="col-12 col-md-6 mx-auto text-center my-3">
+                    <img class="cover-image" src="assets/images/9.im-not-coming-back-home-400x400.jpg" alt="I'm not coming back home">
+                </div>
+
+                <!--***TITLE AND ICONS***-->
+                <div class="col-12 col-md-6 align-self-center title-icons-outer">
+                    <div class="row">
+
+                        <!--ALBUM TITLE-->
+                        <div class="col-12 col-md-6 text-center song-title">
+                            <h3 class="text-capitalize text-center mb-2">I'm not coming back home</h3>
+                        </div>
+
+                        <!--PLAY AND BUY ICONS-->
+                        <div class="col-12 col-md-6 mb-3 align-items-center text-center">
+                            <ul class="list-inline play-buy-links">
+
+                                <!--icons not working at the moment as play icon needs to link 
+                        to a sample of the song and shopping cart will become active on a second stage where tecnology will be learnt-->
+                                <li class="list-inline-item play-icon mr-5">
+                                    <a target="_blank" href="#">
+                                        <i class="far fa-play-circle" aria-hidden="true"></i>
+                                        <span class="sr-only">play</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item play-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="sr-only">buy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 	</main>
 
@@ -170,6 +523,7 @@
 					</ul>
 				</div>
 			</div>
+
 		</div>
 	</footer>
 

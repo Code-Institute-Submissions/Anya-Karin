@@ -54,18 +54,17 @@ body {
 /*---Footer ---------------------*/
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   background: var(--color-3);
-  min-height: 100px;
+  height: 75px;
   }
 
 footer .list-inline-item a {
   color: var(--color-1);
-  font-size: 1rem;
 }
 
 footer .list-inline-item a:hover {
@@ -106,7 +105,8 @@ footer .list-inline-item a:hover {
 }
 
 .carousel-item img {
-    max-height: 500px;
+    max-height: 600px;
+    min-height: 175px;
 }
 
 .news-content {
@@ -170,9 +170,16 @@ footer .list-inline-item a:hover {
 
 }
 
-.cover-image
+img.cover-image {
+  height: 250px;
+  align-self: center;
 
+}
 
+.list-inline-item.play-icon a i,
+.list-inline-item.buy-icon a i {
+    color: var(--color-1);
+}
 
 .song-text {
     padding-bottom: .6rem;
@@ -295,8 +302,13 @@ footer .list-inline-item a:hover {
   }
 
   #card-aboutpage {
-      width: 18rem;
+    width: 18rem;
   }
+
+  footer .list-inline-item a {
+   font-size: .8rem;
+  }
+
 }
 
 
@@ -316,6 +328,10 @@ footer .list-inline-item a:hover {
 
   #card-aboutpage {
       width: 18rem;
+  }
+
+  footer .list-inline-item a {
+   font-size: 1rem;
   }
 }
 
@@ -337,6 +353,10 @@ footer .list-inline-item a:hover {
   #card-aboutpage {
       width: 28rem;
   }
+
+  footer .list-inline-item a {
+   font-size: 1.2rem;
+  }
 }
 
 
@@ -347,7 +367,7 @@ footer .list-inline-item a:hover {
   }
 
   .navbar-item {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .list-inline-item a i {
@@ -355,6 +375,10 @@ footer .list-inline-item a:hover {
   }
 
   #card-aboutpage {
-      width: 32rem;
+     width: 32rem;
+  }
+
+  footer .list-inline-item a {
+   font-size: 1.4rem;
   }
 }

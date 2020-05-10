@@ -82,7 +82,6 @@ footer .list-inline-item a:hover {
 
 .carousel-caption h3 a{
     color: var(--color-2);
-    font-size: 1rem;
 }
 .carousel-caption h3 a:hover {
   color: var(--color-1);
@@ -109,7 +108,8 @@ footer .list-inline-item a:hover {
     min-height: 175px;
 }
 
-.news-content {
+.news-content,
+.news-content p a {
   background-color: var(--color-6);
   color: var(--color-2);
 }
@@ -283,30 +283,68 @@ img.cover-image {
      and costumised values--*/
 
 
-@media (max-width: 576px) {
+@media (min-width: 992px) {
   #logo {
-    font-size: 1.3rem;
+    font-size: 4rem;
   }
-  
-  .news-content h2,
+
+  .navbar-item {
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption h3 a {
+      font-size: 2rem;
+  }
+
   .list-inline-item a i {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   #card-aboutpage {
-    width: 18rem;
+     width: 32rem;
   }
 
   footer .list-inline-item a {
-   font-size: .8rem;
+   font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  #logo {
+    font-size: 2.4rem;
   }
 
+  .navbar-item {
+  font-size: 1.2rem;
+  }
+
+  .carousel-caption h3 a {
+      font-size: 1.6rem;
+  }
+
+  .list-inline-item a i {
+    font-size: 1.4rem;
+  }
+
+  #card-aboutpage {
+      width: 28rem;
+  }
+
+  footer .list-inline-item a {
+   font-size: 1.4rem;
+  }
 }
 
 
 @media (max-width:768px) {
   #logo {
-    font-size: 1.4rem;
+    font-size: 2rem;
+  }
+
+  .carousel-caption h3 a {
+      font-size: 1.2rem;
   }
 
      /* For mobile phones: template found on https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
@@ -328,49 +366,27 @@ img.cover-image {
 }
 
 
-
-@media (max-width: 992px) {
+@media (max-width: 576px) {
   #logo {
     font-size: 1.8rem;
   }
-
-  .navbar-item {
-  font-size: 1rem;
+  
+  .carousel-caption h3 a {
+      font-size: 1rem;
   }
 
+  .news-content h3,
   .list-inline-item a i {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   #card-aboutpage {
-      width: 28rem;
+    width: 18rem;
   }
 
   footer .list-inline-item a {
-   font-size: 1.2rem;
+   font-size: .8rem;
   }
+
 }
 
-
-
-@media (min-width: 992px) {
-  #logo {
-    font-size: 2rem;
-  }
-
-  .navbar-item {
-    font-size: 1.2rem;
-  }
-
-  .list-inline-item a i {
-    font-size: 1.4rem;
-  }
-
-  #card-aboutpage {
-     width: 32rem;
-  }
-
-  footer .list-inline-item a {
-   font-size: 1.4rem;
-  }
-}

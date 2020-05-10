@@ -174,7 +174,6 @@ img.cover-image {
   height: 250px;
   align-self: center;
   box-shadow: 0px 0px 30px -7px rgba(255, 255, 255, 0.5);
-
 }
 
 .list-inline-item.play-icon a i,
@@ -182,19 +181,11 @@ img.cover-image {
     color: var(--color-1);
 }
 
-.song-text {
-    padding-bottom: .6rem;
+.list-inline-item.play-icon a i:hover,
+.list-inline-item.buy-icon a i:hover {
+    color: var(--color-2);
 }
 
-.row .song-list {
-    border-bottom-color:var(--color-6);
-    border-width: .4rem;
-}
-
-.song-links a {
-    margin-left: 1rem;
-    color: var(--color-6);
-}
 
 /*---Video page ------------------*/
 
@@ -204,17 +195,17 @@ img.cover-image {
   color: var(--color-6);
 }
 
-.resp-row {
+.resp-row.row-video {
   position:"";
   margin-bottom: 8rem;
 }
 
-.embed-responsive {
+.row-video .embed-responsive {
   margin-bottom: 1.6rem;
 
 }
 
-.embed-responsive-item {
+.row-video .embed-responsive-item {
 
    position: absolute;
     border-style: none;
@@ -244,11 +235,11 @@ img.cover-image {
 .listen-button-musicpage {
   border-radius: 0;
   color: var(--color-2);
-  background-color: var(--color-5);
-  border-bottom-color: var(--color-2);
-  border-top-color: var(--color-2);
-  border-right-color: var(--color-2);
-  border-left-color: var(--color-2);
+  background-color: var(--color-1);
+  border-bottom-color: var(--color-1);
+  border-top-color: var(--color-1);
+  border-right-color: var(--color-1);
+  border-left-color: var(--color-1);
   padding: 0.6rem 1.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -260,10 +251,10 @@ img.cover-image {
   color: var(--color-2);
 }
 
-.listen-button-musicpage,
+.listen-button-musicpage:hover,
 .listen-button-musicpage a:hover {
-  color: var(--color-5);
-  background-color: var(--color-1);
+  color: var(--color-1);
+  background-color: var(--color-2);
   border-bottom-color: var(--color-1);
   border-top-color: var(--color-1);
   border-right-color: var(--color-1);

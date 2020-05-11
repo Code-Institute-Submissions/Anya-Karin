@@ -276,6 +276,10 @@ img.cover-image {
     margin-bottom: 1rem;
 }
 
+/*.contact-container {
+    min-height: 600px;
+}
+
 
 /*---Media Queries------------------*/
 
@@ -285,11 +289,11 @@ img.cover-image {
 
 @media (min-width: 992px) {
   #logo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .navbar-item {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .carousel-caption h3 a {
@@ -343,6 +347,10 @@ img.cover-image {
     font-size: 2rem;
   }
 
+  .navbar-item {
+  font-size: 1rem;
+  }
+
   .carousel-caption h3 a {
       font-size: 1.2rem;
   }
@@ -368,7 +376,11 @@ img.cover-image {
 
 @media (max-width: 576px) {
   #logo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .navbar-item {
+  font-size: 1rem;
   }
   
   .carousel-caption h3 a {

@@ -109,9 +109,13 @@ footer .list-inline-item a:hover {
 }
 
 .news-content,
-.news-content p a {
+.news-content p i a {
   background-color: var(--color-6);
   color: var(--color-2);
+}
+
+.news-content h3 {
+  color:var(--color-1);
 }
 
 #logo-2 {

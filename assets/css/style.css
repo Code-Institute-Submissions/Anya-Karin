@@ -130,6 +130,14 @@ footer .list-inline-item a:hover {
     background-color: var(--color-2);
 }
 
+.quote-item {
+    box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.29);
+}
+
+.quote-title {
+    letter-spacing: 2px;
+}
+
 .quote-item,
 .quote-description,
 .quote-description p a {
@@ -161,6 +169,10 @@ footer .list-inline-item a:hover {
 .card-text {
     font-size: 14px;
     word-spacing: .2rem;
+}
+
+#about-footer {
+    position: fixed;
 }
 
 
@@ -273,15 +285,19 @@ img.cover-image {
   height: 100vh;
   background-color: var(--color-6);
 }
-
+ 
 .hire-me-text h4, 
 .hire-me-text h5 {
     color: var(--color-2);
     margin-bottom: 1rem;
 }
 
-/*.contact-container {
+.contact-container {
     min-height: 600px;
+}
+
+#contact-footer {
+    position:fixed;
 }
 
 

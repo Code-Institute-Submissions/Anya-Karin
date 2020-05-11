@@ -1,15 +1,15 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-#H1 Anya Karin singer song writer
+#Anya Karin singer song writer
 
 <p>This project aims to promote the identity and work of Anya Karin as a singer and song writer. The current music market understands that to achieve popularity, the songs should reach the consumer repeatedly in order to create familiarity as Duhigg explains in "The Power of Habit". At this moment in time, radio is losing its place as top gatekeeper of what songs reach the mass audience, giving way to platforms such as spotify and apple play.</p>
 <p>As the trends favour the streaming market that had a rise from 76.8 million users in 2015 to 278 million users in 2019. Therefore, an online presence is vital in order to reach listeners. A website that contains enough information to convey the artist's identity and work would become the home of the digital image and the link to different social and streaming platforms used by the artist.</p>
 
 
-<h2>UX</h2
+##UX
 
-<p>Anya Karin is a singer / song writer is based in Lisbon and sings pop music both in Portuguese and English.</p>
-<p>The ideal consumer will be population that uses music streaming subscribers and youtube listeners that choose pop playlist</p>
+Anya Karin is a singer / song writer is based in Lisbon and sings pop music both in Portuguese and English.
+The ideal consumer will be population that uses music streaming subscribers and youtube listeners that choose pop playlist
 <p>The ideal consumer will costumise playlist as it becomes familiar with the artist. The website aims to provide a clean, professional image to the fan and future fan that wishes to find out more about the artist."
 
 <p>The artist has youtube presence and presence on streaming platforms, as well as on social media However the current website lacks creative design. This project aims to correct that problem.</p>

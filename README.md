@@ -25,7 +25,14 @@ Anya Karin is a singer / song writer with base in Lisbon singing pop music both 
 
 ### Structure:  
   The webstite contains 5 pages (initially thought of 4: Home, Music, About, Contact, but soon realised that needed to separate videos and song lists on music page).
-(to include wireframes)
+   
+   #### wireframes
+  * [Home Wireframe] (../assets/images/Wireframes/1.homepage.jpg)
+  * [Home desktop Wireframe] (../assets/images/Wireframes/2.homepage.desktop.jpg)
+  * [About Wireframe] (../assets/images/Wireframes/4.aboutpage.jpg)
+  * [Music Wireframe] (../assets/images/Wireframes/6.musicpage.jpg)
+  * [Video Wireframe] (../assets/images/Wireframes/3.video.jpg)
+  * [Contact Wireframe] (../assets/images/Wireframes/6.contact.jpg)
 
 
 ### Scope:
@@ -107,7 +114,8 @@ This project was created using the master branch and then deployed as github pag
 
 ### content
   * Cards with shadow were learnt from Giobanno at [https://bootsnipp.com/snippets/vN2mb] and adapted the content to website.
-  * 
+  * variables - I found the need to use variables as I was experimenting with  different tones of grey and pink - learnt with Kevin Powel's youtube video 
+    "CSS Variables - An introduction to CSS custom properties [https://www.youtube.com/watch?v=PHO6TBq_auI"]
 
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?

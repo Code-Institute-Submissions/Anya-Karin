@@ -55,33 +55,59 @@ Content requirement:
      This form will be on the contact form and at this stage will not be submitting data to a recipient.
      In future would like to add a live chat where the consumer can be given the opportunity to message and have a reply instantly when the artist is online.
 
-The languages used in this project were HTML and CSS
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## technology used
+The languages used in this project were HTML5 and CSS3, fundamentally. In addition to to HTML and CSS, it was used bootstrap 4 library throughout this project as it is a mobile first framework, very useful in building a responsive layout.  
+It was also used fontawesome framework for the use of icons throughout the project.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+## Testing
+Pages of the website have been throughouly tested to ensure that all features are functional with the following exceptions:
+  * music page - play and buy icons do not work yet - the functionality of both buttons will be the focus of the second stage of implementation.
+  * contact page - submit button is not operational as it is also part of second stage of this project.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The tests conducted included visit the different webpages on all screen sizes, using the "inspect" element of google chrome browser. Additionally I visited the website in different browsers - microsoft edge and firefox.  
+  * navigation bar - logo links to home page; page links are all operational, hover properties work as expected;
+  * carousel - responsive to screen sizes, song titles with operational links; indicators working when clicked;
+  * News container - bell icon with working link to youtube page, youtube video hidden in small screens;
+  * cards on home page have responsive layout, last cad hidden for medium size screen;
+  * footer - social media icons linking correctly to social media pages;
+  * about page card - responsive layout;
+  * music page - responsive layout - icons play and buy do not work;
+  * video page - all youtube videos work as soon as pressing play on them;
+  * video page - listen button has a hover timing that needs to be looked up on second stage of website as in mobile border when hovering is wider than expected;
+  * contact page - required fields had been included and work, as it remindes me I cannot submit without Name and email and content of message, submit button is yet not operational;
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Throughout the project was particularly difficult to resolve issue of carousel images responsive layout. Firstly I was required to change all the sizes of the photos and to experiment
+different sizes to decide what was best.  
+Footer also proved to be a challenge as in contact page and about page the footer would either not be at the bottom or would be hidding content. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+## Validation
+
+Used [https://validator.w3.org](https://validator.w3.org) in order to validate website [https://veraleitaodev.github.io/Anya-Karin/](https://veraleitaodev.github.io/Anya-Karin/).
+
+There was one error found and one warning. the error mentioned that *framerborder* on iframe element, in index.html line 151 was redundant, I removed the *frameborder* and error was resolved.  
+The warning was regarding the excess use of hiphens disabling makability of the comment. Problem rectified by removing excessive hyphens.
+
+## Deployment
+
+This project was created using the master branch and then deployed as github pages from Git Hub repository:
+
+  * selected _gh-pages_ from __branches__.
+  * selected __settings__.
+  * scroll down the page to __gh-pages__ section and selected from __source__ *gh-pages*.
+  * changed master branch to *gh-pages* and the website is then deployed.
+  * on this area is the link of the deployed website.
+
+           [https://veraleitaodev.github.io/Anya-Karin/]
+ 
+## Credits
+
+### content
+  * Cards with shadow were learnt from Giobanno at [https://bootsnipp.com/snippets/vN2mb] and adapted the content to website.
+  * 
 
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
@@ -90,7 +116,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The text for se--ction Y was copied from the Wikipedia article Z
 Media
 The photos used in this site were obtained from ...
 Acknowledgements

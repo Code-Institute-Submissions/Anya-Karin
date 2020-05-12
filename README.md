@@ -116,17 +116,18 @@ This project was created using the master branch and then deployed as github pag
   * Cards with shadow were learnt from Giobanno at [https://bootsnipp.com/snippets/vN2mb] and adapted the content to website.
   * variables - I found the need to use variables as I was experimenting with  different tones of grey and pink - learnt with Kevin Powel's youtube video 
     "CSS Variables - An introduction to CSS custom properties [https://www.youtube.com/watch?v=PHO6TBq_auI"]
+  * the content used on _about_ page was copied from [http://anyakarin.com] with Anya Karin permission.
+  * backgroung photo css code copied and adapted from Chris Coyier at [https://css-tricks.com/perfect-full-page-background-image]
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
-The text for se--ction Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+### Media
+
+  * the photos Iused were obtained by the artist and through artist facebook page with her permission
+
+
+## Acknowledgements
+  * I received inspiration for this project from researching popartist websites the artists researched were: Adele, Lady Gaga, Ariana Grande;
+  * Thank you to Rheyannmagcalas, my  mentor as I received a great contribution to this project. My mentor suggested the color scheme and carousel and other many suggestions troughout the project;
+  * I have received inspiration from youtube developers [Kevin Powell](https://www.youtube.com/user/KepowOb) and [Drew Ryan](https://www.youtube.com/channel/UCtXGz0MBuqZUC8rmGddc07Q);
+
 

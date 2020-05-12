@@ -27,12 +27,12 @@ Anya Karin is a singer / song writer with base in Lisbon singing pop music both 
   The webstite contains 5 pages (initially thought of 4: Home, Music, About, Contact, but soon realised that needed to separate videos and song lists on music page).
    
    #### wireframes
-  * [Home Wireframe] (../assets/images/Wireframes/1.homepage.jpg)
-  * [Home desktop Wireframe] (../assets/images/Wireframes/2.homepage.desktop.jpg)
-  * [About Wireframe] (../assets/images/Wireframes/4.aboutpage.jpg)
-  * [Music Wireframe] (../assets/images/Wireframes/6.musicpage.jpg)
-  * [Video Wireframe] (../assets/images/Wireframes/3.video.jpg)
-  * [Contact Wireframe] (../assets/images/Wireframes/6.contact.jpg)
+  * [Home Wireframe](/assets/images/Wireframes/1.homepage.jpg)
+  * [Home desktop Wireframe](/assets/images/Wireframes/2.homepage.desktop.jpg)
+  * [About Wireframe](/assets/images/Wireframes/4.aboutpage.jpg)
+  * [Music Wireframe](/assets/images/Wireframes/6.musicpage.jpg)
+  * [Video Wireframe](/assets/images/Wireframes/3.video.jpg)
+  * [Contact Wireframe](/assets/images/Wireframes/6.contact.jpg)
 
 
 ### Scope:
